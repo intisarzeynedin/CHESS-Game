@@ -1,7 +1,10 @@
-// Inserting the Images
+
 function insertImage() {
+    
     document.querySelectorAll('.box').forEach(image => {
+      
         if (image.innerText.length !== 0) {
+         
             if (image.innerText == 'Wpawn' || image.innerText == 'Bpawn') {
                 image.innerHTML = `${image.innerText} <img class='allimg allpawn' src="img/${image.innerText}.png" alt="">`;
                 image.style.cursor = 'pointer';
@@ -12,6 +15,7 @@ function insertImage() {
         }
     });
 }
+
 insertImage();
 
 
