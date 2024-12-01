@@ -1,30 +1,30 @@
 * {
     margin: 0;
     padding: 0;
-    /* Remove default margin and padding from all elements */
+   
 }
 
 body {
     display: grid;
     place-items: center;
     overflow-x: hidden;
-    /* Center the body content using grid display and hide horizontal overflow */
+    background: rgb(192, 152, 110);
 }
 
 h1 {
     margin: 10px;
-    /* Add margin around the main heading */
+ 
 }
 
 ul {
     display: grid;
     grid-template-columns: 1fr;
-    /* Create a single-column grid layout for the unordered list */
+  
 }
 
 .divv {
     display: flex;
-    /* Use flexbox to layout the rows */
+   
 }
 
 li {
@@ -32,59 +32,59 @@ li {
     display: grid;
     place-items: center;
     font-size: 0px;
-    /* Remove list bullets, center items within each box, and set font size to 0 (likely for image-based content) */
+   
 }
 
 .box {
     margin: .5px;
     width: 75px;
     height: 75px;
-    /* Define size and margin for each box on the chessboard */
+   
 }
 
 #tog {
     margin: 10px 0px;
-    /* Add vertical margin to the toggle element */
+
 }
 
 .allimg {
     width: 45px;
     position: relative;
     bottom: 5px;
-    /* Set width and position adjustment for all images */
+  
 }
 
 .allpawn {
     transform: scale(.7);
-    /* Scale down the size of pawn images */
+  
 }
 
 .authcont {
     width: 100vw;
-    /* Set the width of the container to 100% of the viewport width */
+ 
 }
 
 .author {
     float: right;
     margin-right: 50px;
-    /* Float the author element to the right with a margin */
+    
 }
 
 @media (max-width:650px) {
-    /* Media query for screens with a maximum width of 650px */
+   
     #tog {
         margin-bottom: 70px;
-        /* Increase bottom margin for the toggle element */
+       
     }
 
     .box {
         width: 11vw;
         height: 11vw;
-        /* Adjust the size of the boxes to be responsive */
+       
     }
 
     .allimg {
         width: 7vw;
-        /* Adjust the width of images to be responsive */
+     
     }
 }
